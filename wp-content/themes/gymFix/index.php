@@ -22,13 +22,15 @@
 
         </div>
 
-        <nav>
-         
-            <a href="./nosotros">Nosotros</a>
-            <a href="./contacto">Contacto</a>
-            <a href="./blog">Blog</a>
+        <?php 
+            $args = array(
+                'theme_location' => 'menu-principal'
 
-        </nav>
+            );
+            wp_nav_menu();
+
+
+        ?>
 
     </div>
 
