@@ -23,11 +23,16 @@
         </div>
 
         <?php 
-            $args = array(
-                'theme_location' => 'menu-principal'
 
-            );
-            wp_nav_menu();
+        /* con el themre_location indico que menu quiero renderizar en pantalla "*/
+            $args = array(
+                'theme_location' => 'menu_principal',
+                'container' => 'nav',
+                'container_class' => 'menu-principal'
+
+            );  
+
+            wp_nav_menu($args);
 
 
         ?>
@@ -37,18 +42,18 @@
 
 </header>
 
-<main>
-<?php 
+    <main>
+            <?php 
 
-    while( have_posts() ) : the_post();
+                while( have_posts() ) : the_post();
 
-        the_title();
+                    the_title();
 
-        the_content();
+                    the_content();
 
-    endwhile;
+                endwhile;
 
-
-?></main>    
+            ?>
+    </main>    
 </body>
 </html>
