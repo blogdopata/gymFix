@@ -1,9 +1,10 @@
 
-
 <?php
 
+
+
 function gymfitness_menus(){
-    /* Se pueen agregar mas menus solo separar con  comas (,) */ 
+    /* Se pueden agregar mas menus solo separar con  comas (,) */ 
     register_nav_menus( array(
         'menu_principal' => __('Menu Principal', 'gymfitness' )
 
@@ -21,13 +22,14 @@ function gymfitness_menus(){
 add_action('init', 'gymfitness_menus');
 
 
-/*  Para agregar una hoja de EStilos */
 
+/*----------------------------------------------------------*/
+
+
+/*  Para agregar una hoja de EStilos */
 
 function  gymfitness_scripts_styles(){
 
-
-   
     wp_enqueue_style('style', get_stylesheet_uri(), array('normalize'), '1.0.0' ) ;
     wp_enqueue_style('normalize','https://necolas.github.io/normalize.css/8.0.1/normalize.css', array(), '8.0.1' );
 }
