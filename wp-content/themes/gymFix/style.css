@@ -11,9 +11,19 @@
     Text Domain: gymfitness
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Staatliches&display=swap');
 
 
-body{
-    background-color: rebeccapurple;
+:root {
+    /* FUENTE  */
+    --fuente-principal:'Raleway', sans-serif;
+    --fuente-headings:'Staatliches', cursive;
 }
+    
 
+
+
+body {
+    background-color: rebeccapurple;
+    font-family: var(--fuente-principal);
+}
