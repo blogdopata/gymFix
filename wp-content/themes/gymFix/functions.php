@@ -1,6 +1,18 @@
 
 <?php
 
+function gymfitness_setup(){
+    /* ACTIVAR IMAGENES DESTACADAS */ 
+    add_theme_support('post-thumbnails');
+
+
+}
+
+/* hook : after_setup_theme ni bien carga el tema se ejecura*/
+
+add_action('after_setup_theme','gymfitness_setup');
+
+
 
 
 function gymfitness_menus(){

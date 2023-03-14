@@ -38,13 +38,15 @@ html {
     --gris-claro: #ebebeb;
     --blanco: #fff;
     --negro: #000;
+
+    --mozo: rebeccapurple;
 }
 
 
 
 
 body {
-    background-color: yellow;
+    background-color: var(--mozo);
     font-family: var(--fuente-principal);
     font-style: 18px;
     font-style: 1.8rem;
@@ -98,12 +100,19 @@ img {
     max-width: 100%;
     height: auto;
 }
+.imagen-destacada{
+    margin-bottom: 3rem;
+}
 
 .contenedor {
     width: min(95%, 120rem);
     margin: 0 auto;
 }
 
+.contenido-centrado{
+    width: min(95%, 80rem);
+    margin: 0 auto;
+}
 
 /* Utilidades */
 
