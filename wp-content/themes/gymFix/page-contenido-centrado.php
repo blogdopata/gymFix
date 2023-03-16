@@ -16,30 +16,17 @@ get_header();
 ?>
 
 
-<h1>No sidebars</h1>
-
 
 
     <main class="contenedor seccion contenido-centrado">
             <?php 
-
-                while( have_posts() ) : the_post();
-
-                    the_title('<h1 class="text-center text-primary">' , '</h1>');
-
-
-                    if(has_post_thumbnail(false)){
-                     /* si quisiera ageegarle clase  the_post_thumbnail('full',array('class' => 'imagen-destacada'));*/
-
-                    the_post_thumbnail('full',array('class' => 'imagen-destacada'));
+                get_template_part('template-parts/pagina')
                 
-                    }
-
-                    the_content();
-
-                endwhile;
 
             ?>
     </main>    
-</body>
-</html>
+
+
+    <?php
+            get_footer();
+    ?>
