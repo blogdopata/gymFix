@@ -100,6 +100,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+hr{
+    border:1px solid var(--gris-claro);
+}
+
+
 .imagen-destacada{
     margin-bottom: 3rem;
 }
@@ -231,3 +237,31 @@ img {
         transform: scaleX(1);
     }
 }
+
+
+
+/* FOOOOTER   */
+.contenido-footer{
+
+    padding: 4rem 0;
+
+}
+footer .menu-principal a{
+
+    color: var(--negro);
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 0 1rem;
+
+}
+
+footer  .menu-principal a::before,
+footer .menu-principal a::after {
+
+    display: none;
+
+}
+.footer .current_page_item{
+    border:none;
+}
+
