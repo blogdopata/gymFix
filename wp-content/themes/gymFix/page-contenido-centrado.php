@@ -16,7 +16,7 @@ get_header();
 ?>
 
 
-
+<!-- get_template_part es  la forma corecta para traer unuestra plantilla -->
 
     <main class="contenedor seccion contenido-centrado">
             <?php 
