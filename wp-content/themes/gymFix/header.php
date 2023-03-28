@@ -8,11 +8,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- wp_head()  para cargar tus recursos -->
+<!-- wp_head()  para cargar tus recursos  y tb trae el TITLE -->
+
     <?php
         wp_head();
     ?>
-    <title>Document</title>
+<!--     <title>Document</title>    XQ USAREMOS DE FUNCTION.PHP -->
+
+
 </head>
 
 <body>

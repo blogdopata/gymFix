@@ -5,6 +5,9 @@ function gymfitness_setup(){
     /* ACTIVAR IMAGENES DESTACADAS */ 
     add_theme_support('post-thumbnails');
 
+    // TITULOIS PARA SEO
+    add_theme_support('title-tag');
+
 
 }
 

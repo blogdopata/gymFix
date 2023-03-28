@@ -26,6 +26,10 @@
 </footer>
 
 
+<?php 
+// ES PARA TRAER LA BARRA DE WORDPRESS 
+    wp_footer();
 
+?>
 </body>
 </html>
