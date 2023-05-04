@@ -9,7 +9,7 @@
     Text Domain: gymfix
 */
 
-// FUNCION PARA Q NO PUEDAS ACCEDER A ESTE FILE
+// FUNCION PARA Q NO PUEDAS ACCEDER A ESTE FILE  VIA LA URL 
 if(!defined('ABSPATH')) die();
 
 // Registrar Custom Post Type

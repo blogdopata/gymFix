@@ -11,7 +11,7 @@ POR CONVENCIÓN SE CREA LA CARPETA "TEMPLATE-PARTS" y se PONE EL CODIGO QUE VAMO
 
 
         if(has_post_thumbnail(false)){
-        /* si quisiera ageegarle clase  the_post_thumbnail('full',array('class' => 'imagen-destacada'));*/
+        /* si quisiera agregarle clase  the_post_thumbnail('full',array('class' => 'imagen-destacada'));*/
 
         the_post_thumbnail('full',array('class' => 'imagen-destacada'));
 
