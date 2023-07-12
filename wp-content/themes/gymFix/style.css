@@ -9,7 +9,7 @@
     License URI: http://www.gnu.org/licenses/gpl-2.0.html
     Tags: Gym, gimnasio, flexbox, css grid, mobile first
     Text Domain: gymfitness
-*/
+        */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Staatliches&display=swap');
 
@@ -39,7 +39,7 @@ html {
     --blanco: #fff;
     --negro: #000;
 
-    --mozo: rebeccapurple;
+    --mozo: white;
 }
 
 
